@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 40px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} 
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<h1>BEST APPS FOR 2018</h1>
+  <h3>Helping your business thrive using technology</h3>
+</div>
+<div style="background-color:#f1f1f1;padding:20px;">
+			</div>
+  
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">The Book</div>
+    <div class="menuitem">About Us</div>
+    <div class="menuitem">Contact Us </div>
+    <div class="menuitem">Gallery</div>
+  </div>
+
+  <div class="main">
+    <h2>IT 4 NON TECHY</h2>
+    <p>This book highlights some keys apps to helping your small scale business become relevant for this 21st century including some digital marketing techniques </p>
+    <img src="img.it techy.jpg" style="width:50%">
+	<div class="container">
+  <img src="img_snow.jpg" alt="Snow">
+  <button class="btn">Click Here To Register</button>
+  
+</div> 
+  </div>
+<button class=>Download Free</button>
+<div class="panel">
+  <p>Download materials of great use</p>
+</div>
+
+<button class="accordion">Sign Up</button>
+<div class="panel">
+  <p>Lets help you find what suits your brand</p>
+</div>
+
+<button class="accordion">Log in</button>
+<div class="panel">
+  <p>Get more scoop on our tech solutions</p>
+</div> 
+  
+  <div class="right">
+    <h2>What?</h2>
+    <p>Helping organisations and small scale businesses use technology business applications effectively and maximise profit.</p>
+    <h2>Where?</h2>
+    <p>9 Adebisi Close ,Idiroko Estate,Lagos.</p>
+    <h2>Price?</h2>
+    <p>5000</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by tosin toye.
+
+</body>
+</html>
+</div>
